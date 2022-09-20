@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  background-color: yellowgreen;
+  text-align: center;
+}
+h1 {
+  padding-bottom: 100px;
+  margin: auto;
+  font-size: 60px;
+  padding-top: 25px;
+}
+.btn-group button {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding: 6px 22px;
+  border-radius: 8px;
+  margin-bottom: 3px;
+}
+.btn-group {
+  padding-top: 5%;
+}
+
+.btn-group button:hover {
+  background-color: lightgray;
+}
+.btn-row1 {
+  justify-content: center;
+  align-items: center;
+}
+.btn-row2 {
+  justify-content: center;
+  align-items: center;
+}
+.btn-row3 {
+  justify-content: center;
+  align-items: center;
+}
+.players {
+  font-size: 30px;
+}
+.player-1 {
+  margin: 0;
+  padding: 0;
+}
+.player-2 {
+  text-align: right;
+  padding-right: 15%;
+}
+.player-1-container {
+  display: inline-block;
+}
+.X {
+  color: blue;
+  background-color: yellow;
+}
+.O {
+  background-color: red;
+}
+.noHover {
+  pointer-events: none;
+}
+/* .btn-0-0 {
+}
+.btn-0-1 {
+}
+.btn-0-2 {
+
+}
+.btn-1-0 {
+  
+}
+.btn-1-1 {
+ 
+}
+.btn-1-2 {
+  
+}
+.btn-2-0 {
+  
+}
+.btn-2-1 {
+ 
+}
+.btn-2-2 { */

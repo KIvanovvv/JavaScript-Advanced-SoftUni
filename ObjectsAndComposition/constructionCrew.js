@@ -1,9 +1,7 @@
 function constructionCrew(obj) {
   if (obj.dizziness) {
-    obj.levelOfHydrated = obj.weight * 0.1 * obj.experience;
-    obj.dizziness = false;
+    obj.le;
   }
-  return obj;
 }
 constructionCrew({
   weight: 80,

@@ -1,10 +1,3 @@
-// · add(element) - adds a new element to the collection
-
-// · remove(index) - removes the element at position index
-
-// · get(index) - returns the value of the element at position index
-
-// · size - number of elements stored in the collection
 class List {
   constructor() {
     this.arr = [];

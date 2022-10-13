@@ -34,6 +34,6 @@ const bookSelection = {
   },
 };
 console.log(
-  bookSelection.suitableTitles([{ genre: `Horror`, title: "Abc" }], `Horror`)
+  bookSelection.suitableTitles([{ title: `asd`, genre: `Horror` }], `Horro`)
 );
 module.exports = bookSelection;

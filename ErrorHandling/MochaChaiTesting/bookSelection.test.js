@@ -81,10 +81,30 @@ describe(`Testing bookSelection `, () => {
       );
     });
     it(`should return correct result`, () => {
-      let arr = [{ title: "Abc", genre: `Horror` }];
-      expect(bookSelection.suitableTitles(arr, `Horror`)).to.be.equal([
-        arr[0].title,
-      ]);
+      // let arr = [{ title: "Abc", genre: `Horror` }];
+      // expect(bookSelection.suitableTitles(arr, `Horror`)).to.be.deep.equal([
+      //   arr[0].title,
+      // ]);
+      assert.deepEqual(
+        bookSelection.suitableTitles(
+          [{ title: "Abc", genre: `Horror` }],
+          `Horror`
+        ),
+        [`Abc`]
+      );
+    });
+    it(`should return correct result`, () => {
+      // let arr = [{ title: "Abc", genre: `Horror` }];
+      // expect(bookSelection.suitableTitles(arr, `Horror`)).to.be.deep.equal([
+      //   arr[0].title,
+      // ]);
+      assert.deepEqual(
+        bookSelection.suitableTitles(
+          [{ title: "Abc", genre: `Horror` }],
+          `notInArray`
+        ),
+        []
+      );
     });
   });
 });
